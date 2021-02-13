@@ -55,3 +55,15 @@ We suggest the following additional visualizations for future analysis:
 ## Link to Dashboard
   
 [Link to NYC Story](https://public.tableau.com/profile/fernando.santos8046#!/vizhome/challenge_16126440284230/NYCStory?publish=yes "Link to NYC Story")
+
+## Linear Regression to Predict MPG
+
+![Mechacar_LR](/Mechacar_LR.png)
+
+- The variables/coefficients that provided a non-random amount of variance to the mpg values in the dataset are:
+  - vehicle_length
+  - ground_clearance
+  
+- The p-value of our linear regression analysis is 5.35 x 10-11, which is much smaller than our assumed significance level of 0.05%. Therefore, we can state that there is sufficient evidence to reject our null hypothesis, which means that the slope of our linear model is not zero.
+
+
