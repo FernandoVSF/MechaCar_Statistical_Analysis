@@ -68,7 +68,7 @@ We suggest the following additional visualizations for future analysis:
 
 ## Summary Statistics on Suspension Coils
 
-Although looking at all manufactoring lots together, the total variance of the suspension coils meets the design specification, given the nature of the risk, a more granular analysis is required.  If we look at the manufactoring lots individually, we can verify that lot 3 doesn't meet the design specification, therefore further action is required, like eliminating the ID's with variance above threshhold and anlysis of what is causing so much variance in manufacturing this lot.
+Although looking at all manufactoring lots together, the total variance of the suspension coils meets the design specification (being below 100), given the nature of the risk, a more granular analysis is required.  If we look at the manufactoring lots individually, we can verify that lot 3 doesn't meet the design specification (variance above 100), therefore further action is required, like eliminating the ID's with variance above threshhold and analysis of what is causing so much variance in manufacturing this lot.
 
 - Total Summary
 
