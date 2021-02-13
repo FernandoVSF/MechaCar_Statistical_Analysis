@@ -60,10 +60,8 @@ We suggest the following additional visualizations for future analysis:
 
 ![Mechacar_LR](/Mechacar_LR.png)
 
-- The variables/coefficients that provided a non-random amount of variance to the mpg values in the dataset are:
-  - vehicle_length
-  - ground_clearance
+- According to our results, vehicle vehicle_length and ground_clearance (as well as intercept) are statistically likely to provide non-random amounts of variance to the linear model. In other words the vehicle_length and ground_clearance have a significant impact on mpg.
   
 - The p-value of our linear regression analysis is 5.35 x 10-11, which is much smaller than our assumed significance level of 0.05%. Therefore, we can state that there is sufficient evidence to reject our null hypothesis, which means that the slope of our linear model is not zero.
 
-
+- The r-squared value is 0.71, which means that roughly 71% of all mpg predictions will be correct when using this linear model.
