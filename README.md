@@ -72,3 +72,4 @@ Although looking at all manufactoring lots together, the total variance of the s
 
 ![total_sum](/total_sum.png)   ![lot_sum](/lot_sum.png)  
 
+
