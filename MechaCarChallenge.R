@@ -11,3 +11,9 @@ summarize(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI),SD=sd(PSI), .group
 
 lot_summary <- SC_table %>% group_by(Manufacturing_Lot) %>%
 summarize(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI),SD=sd(PSI), .groups = 'keep') #create summary table
+
+t.test(SC_table$PSI,mu=1500) #compare sample versus population means
+
+t.test(subset(SC_table, Manufacturing_Lot=="Lot1")$PSI,mu=1500) #compare Lot1 versus population means
+t.test(subset(SC_table, Manufacturing_Lot=="Lot2")$PSI,mu=1500) #compare Lot2 versus population means
+t.test(subset(SC_table, Manufacturing_Lot=="Lot3")$PSI,mu=1500) #compare Lot3 versus population means
