@@ -113,5 +113,5 @@ The statistical study that can quantify how the MechaCar performs against the co
   - H0 : The means of all groups are equal, or µ1 = µ2 = … = µn.
   - Ha : At least one of the means is different from all other groups.
  
-- To run the test, we need for data for all metrics, plus vehicle classification, per each manufaturer.
+- To run the test, we need data for all metrics, plus vehicle classification, for each manufacturer.
 
