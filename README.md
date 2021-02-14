@@ -78,4 +78,8 @@ Although looking at all manufactoring lots together, the total variance of the s
 
 ![lot_sum](/lot_sum.png)  
 
+## T-Tests on Suspension Coils
 
+Assuming the significance level is the common 0.05 percent, the p-value across all manufacturing lots is above the significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.  However the p-value is fairly close to the significance level.
+
+When we do the t-test for each manufacturing lot, the p-value for the first lot is 1.00, which means the two means are equivalent. For the second, the p-value lot is still considerebly high, which still shows sufficient evidence to reject the null hypothesis.  However, for the third lot, the p-value is below the significance level, which shows evidence to reject the null hypothesis, as the 2 means are not similar.
