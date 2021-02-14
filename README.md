@@ -91,3 +91,29 @@ When we do the t-test for each manufacturing lot, the p-value for the first lot 
 - t-Test fot each manufacturing lot
 
 ![t_test_each](/t_test_each.png)   
+
+## Study Design: MechaCar vs Competition
+
+The statistical study that can quantify how the MechaCar performs against the competition is the one-way ANOVA.  A one-way ANOVA is used to test the means of a single dependent variable across a single independent variable with multiple groups.
+
+- The metrics to be tested would be the following:
+  - cost
+  - city fuel efficiency
+  - highway fuel efficiency
+  - horse power
+  - maintenance cost
+  - safety rating
+  - warranty period
+  - luggage space
+  - total speed
+  - accelaration
+  - breaking range
+  
+ # The statistical hypotheses will be the following:
+  - H0 : The means of all groups are equal, or µ1 = µ2 = … = µn.
+  - Ha : At least one of the means is different from all other groups.
+ 
+# Data needed to run the test
+
+
+In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
