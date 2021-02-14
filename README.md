@@ -109,11 +109,9 @@ The statistical study that can quantify how the MechaCar performs against the co
   - accelaration
   - breaking range
   
- # The statistical hypotheses will be the following:
+- The statistical hypotheses will be the following:
   - H0 : The means of all groups are equal, or µ1 = µ2 = … = µn.
   - Ha : At least one of the means is different from all other groups.
  
-# Data needed to run the test
+- To run the test, we need for data for all metrics, plus vehicle classification, per each manufaturer.
 
-
-In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
